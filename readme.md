@@ -27,17 +27,16 @@ Este repositório está estruturado para apresentar tanto a documentação quant
             * **Seção C: A Implementação** (código Python correspondente).
         * Uma conclusão sobre os aprendizados da atividade.
         * As referências bibliográficas utilizadas.
-    * _O arquivo PDF será nomeado como `Relatorio_NP_Completos.pdf` (ou similar) e estará na raiz deste repositório._
 
 2.  **Código Fonte (Python):**
     * As implementações em Python dos algoritmos descritos no relatório.
-    * Localizado no arquivo `exec1.py` (ou em arquivos separados, se houver).
+    * Localizado no arquivo `exec1.py`, `exec2.py` e `exec3.py`.
 
 ---
 
 ## 💻 Como Executar as Implementações
 
-Os códigos Python estão contidos no arquivo `exec1.py`. Para executar e testar os algoritmos:
+Os códigos Python estão contidos no arquivo `exec1.py`, `exec2.py` e `exec3.py`. Para executar e testar os algoritmos:
 
 1.  **Clone este repositório:**
     ```bash
