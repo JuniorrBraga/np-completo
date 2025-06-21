@@ -2,7 +2,7 @@
 
 import itertools
 
-def eh_cobertura_vertices(sub_vertices, grafo):
+def cobertura_vertices(sub_vertices, grafo):
     conjunto_sub_vertices = set(sub_vertices)
 
     for u in grafo:
@@ -17,7 +17,7 @@ def encontrar_menor_cobertura_vertices_forca_bruta(grafo):
 
     for k in range(1, n + 1):
         for candidato_subconjunto in itertools.combinations(todos_vertices, k):
-            if eh_cobertura_vertices(candidato_subconjunto, grafo):
+            if cobertura_vertices(candidato_subconjunto, grafo):
                 return list(candidato_subconjunto)
     
     return []
